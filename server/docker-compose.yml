@@ -1,0 +1,21 @@
+services:
+  app:
+    build: ./services/app
+    container_name: app-services
+    ports:
+      - "4002:4002"
+  user:
+    build: ./services/user
+    container_name: user-services
+    ports:
+      - "4001:4001"
+    environment:
+      - MONGO_SERVER=mongodb+srv://yazidsiddiq9899:2j3Jj1d6qMMgxcM1@hacktiv-p3-c2.a3salar.mongodb.net/?retryWrites=true&w=majority
+  orchestrator:
+    build: ./orchestrator-graphQL
+    container_name: orchestrator
+    ports:
+      - "80:4000"
+    environment:
+      - APP_SERVICE_URL=http://app:4002
+      - USER_SERVICE_URL=http://user:4001

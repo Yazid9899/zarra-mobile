@@ -1,0 +1,16 @@
+[
+  {
+    "email": "admin@g.com",
+    "role": "Admin",
+    "password": "12345",
+    "phoneNumber": "08151366522",
+    "address": "666 Gainsway St.Fairfield, CT 06824"
+  },
+  {
+    "email": "bagas@g.com",
+    "password": "12345",
+    "role": "Admin",
+    "phoneNumber": "08785221336",
+    "address": "Jl RS Fatmawati 6 J, Dki Jakarta"
+  }
+]

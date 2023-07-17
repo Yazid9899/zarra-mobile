@@ -1,0 +1,102 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "email": "admin@g.com",
+      "password": "12345",
+      "role": "Admin",
+      "phoneNumber": "1234567",
+      "address": "666 Gainsway St.Fairfield, CT 06824"
+    },
+    {
+      "email": "yazidsiddiq9899@gmail.com",
+      "password": "wwwww",
+      "phoneNumber": "123",
+      "address": "jalan raya kelapa dua",
+      "id": 2
+    }
+  ],
+  "Products": [
+    {
+      "name": "PEPPEPEAPEPEPAEF",
+      "description": "Shirt made of cotton and linen blend fabric. Camp collar and short sleeves. Chest patch pocket. Split hem. Button-up front.",
+      "price": "750000",
+      "mainImg": "https://static.zara.net/photos///2023/I/0/2/p/1063/056/712/2/w/750/1063056712_2_1_1.jpg?ts=1686233133621",
+      "categoryId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "WAVY PRINT SHIRT",
+      "slug": "SHIRT3",
+      "description": "Relaxed fit shirt made of a viscose and linen blend fabric. Camp collar and short sleeves. Chest patch pocket. Button-up front  Multicoloured",
+      "price": "750000",
+      "mainImg": "https://static.zara.net/photos///2023/V/0/2/p/6085/320/330/2/w/750/6085320330_1_1_1.jpg?ts=1686124330791",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "name": "WAVY PRINT SHIRT",
+      "slug": "SHIRT3",
+      "description": "Relaxed fit shirt made of a viscose and linen blend fabric. Camp collar and short sleeves. Chest patch pocket. Button-up front  Multicoloured",
+      "price": "750000",
+      "mainImg": "https://static.zara.net/photos///2023/V/0/2/p/6085/320/330/2/w/750/6085320330_1_1_1.jpg?ts=1686124330791",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 4,
+      "name": "WAVY PRINT SHIRT",
+      "slug": "SHIRT3",
+      "description": "Relaxed fit shirt made of a viscose and linen blend fabric. Camp collar and short sleeves. Chest patch pocket. Button-up front  Multicoloured",
+      "price": "750000",
+      "mainImg": "https://static.zara.net/photos///2023/V/0/2/p/6085/320/330/2/w/750/6085320330_1_1_1.jpg?ts=1686124330791",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 5,
+      "name": "WAVY PRINT SHIRT",
+      "slug": "SHIRT3",
+      "description": "Relaxed fit shirt made of a viscose and linen blend fabric. Camp collar and short sleeves. Chest patch pocket. Button-up front  Multicoloured",
+      "price": "750000",
+      "mainImg": "https://static.zara.net/photos///2023/V/0/2/p/6085/320/330/2/w/750/6085320330_1_1_1.jpg?ts=1686124330791",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 6,
+      "name": "WAVY PRINT SHIRT",
+      "slug": "SHIRT3",
+      "description": "Relaxed fit shirt made of a viscose and linen blend fabric. Camp collar and short sleeves. Chest patch pocket. Button-up front  Multicoloured",
+      "price": "750000",
+      "mainImg": "https://static.zara.net/photos///2023/V/0/2/p/6085/320/330/2/w/750/6085320330_1_1_1.jpg?ts=1686124330791",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 8,
+      "name": "STRIPED COTTON - LINEN SHIRT",
+      "slug": "SHIRT2",
+      "description": "Shirt made of cotton and linen blend fabric. Camp collar and short sleeves. Chest patch pocket. Split hem. Button-up front.",
+      "price": "750000",
+      "mainImg": "https://static.zara.net/photos///2023/I/0/2/p/1063/056/712/2/w/750/1063056712_2_1_1.jpg?ts=1686233133621",
+      "categoryId": 1,
+      "authorId": 1
+    }
+  ],
+  "Category": [
+    {
+      "Id": 1,
+      "name": "SHIRT"
+    }
+  ],
+  "Images": [
+    {
+      "Id": 1,
+      "productId": 1,
+      "imgUrl": "https://static.zara.net/photos///2023/I/0/2/p/8574/352/052/2/w/750/8574352052_1_1_1.jpg?ts=1686233133953"
+    }
+  ]
+}
